@@ -1,0 +1,11 @@
+extends template
+
+block Contenido
+
+    div
+        hr
+        h1 Album: #{item.album}
+        hr
+        img(src=item.url, alt="")
+        h2 Artista: #{item.artist}
+        p Descripcion: #{item.description}
