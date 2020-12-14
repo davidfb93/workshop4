@@ -9,3 +9,7 @@ block Contenido
         img(src=item.url, alt="")
         h2 Artista: #{item.artist}
         p Descripcion: #{item.description}
+        audio(controls)
+            source(src=item.audio, type="audio/mp3")
+        video(controls)
+            source(src=item.video, type="audio/mp4")
